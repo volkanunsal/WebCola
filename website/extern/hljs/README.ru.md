@@ -8,16 +8,17 @@ Highlight.js нужен для подсветки синтаксиса в при
 Автоопределением языка можно управлять, когда оно не справляется само (см.
 дальше "Эвристика").
 
-
 ## Простое использование
 
 Подключите библиотеку и стиль на страницу и повесть вызов подсветки на
 загрузку страницы:
 
 ```html
-<link rel="stylesheet" href="styles/default.css">
+<link rel="stylesheet" href="styles/default.css" />
 <script src="highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
 ```
 
 Весь код на странице, обрамлённый в теги `<pre><code> .. </code></pre>`
@@ -35,7 +36,6 @@ Highlight.js нужен для подсветки синтаксиса в при
 
 [cr]: http://github.com/isagalaev/highlight.js/blob/master/classref.txt
 
-
 ## node.js
 
 Highlight.js можно использовать в node.js. Библиотеку со всеми возможными языками можно
@@ -50,7 +50,7 @@ Highlight.js можно использовать в node.js. Библиотек�
 Использование библиотеки:
 
 ```javascript
-var hljs = require('highlight.js');
+var hljs = require("highlight.js");
 
 // Если вы знаете язык
 hljs.highlight(lang, code).value;
@@ -59,10 +59,9 @@ hljs.highlight(lang, code).value;
 hljs.highlightAuto(code).value;
 ```
 
-
 ## AMD
 
-Highlight.js можно использовать с загрузчиком AMD-модулей.  Для этого его
+Highlight.js можно использовать с загрузчиком AMD-модулей. Для этого его
 нужно собрать из исходников следующей командой:
 
 ```bash
@@ -73,8 +72,7 @@ $ python3 tools/build.py -tamd lang1 lang2 ..
 AMD-модулем и содержит все выбранные при сборке языки. Используется он так:
 
 ```javascript
-require(["highlight.js/build/highlight.pack"], function(hljs){
-
+require(["highlight.js/build/highlight.pack"], function (hljs) {
   // Если вы знаете язык
   hljs.highlight(lang, code).value;
 
@@ -82,7 +80,6 @@ require(["highlight.js/build/highlight.pack"], function(hljs){
   hljs.highlightAuto(code).value;
 });
 ```
-
 
 ## Замена TABов
 
@@ -92,14 +89,13 @@ require(["highlight.js/build/highlight.pack"], function(hljs){
 
 ```html
 <script type="text/javascript">
-  hljs.tabReplace = '    '; // 4 spaces
+  hljs.tabReplace = "    "; // 4 spaces
   // ... or
   hljs.tabReplace = '<span class="indent">\t</span>';
 
   hljs.initHighlightingOnLoad();
 </script>
 ```
-
 
 ## Инициализация вручную
 
@@ -111,8 +107,10 @@ DOM-элемент с текстом расцвечиваемого кода и 
 Например с использованием jQuery код инициализации может выглядеть так:
 
 ```javascript
-$(document).ready(function() {
-  $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
+$(document).ready(function () {
+  $("pre code").each(function (i, e) {
+    hljs.highlightBlock(e);
+  });
 });
 ```
 
@@ -124,9 +122,10 @@ $(document).ready(function() {
 `<pre>`), передайте `true` третьим параметром в `highlightBlock`:
 
 ```javascript
-$('div.code').each(function(i, e) {hljs.highlightBlock(e, null, true)});
+$("div.code").each(function (i, e) {
+  hljs.highlightBlock(e, null, true);
+});
 ```
-
 
 ## Эвристика
 
@@ -154,7 +153,6 @@ $('div.code').each(function(i, e) {hljs.highlightBlock(e, null, true)});
 <pre><code class="no-highlight">...</code></pre>
 ```
 
-
 ## Экспорт
 
 В файле export.html находится небольшая программка, которая показывает и дает
@@ -162,11 +160,10 @@ $('div.code').each(function(i, e) {hljs.highlightBlock(e, null, true)});
 Это может понадобится например на сайте, на котором нельзя подключить сам скрипт
 highlight.js.
 
-
 ## Координаты
 
 - Версия: 7.5
-- URL:    http://highlightjs.org/
+- URL: http://highlightjs.org/
 
 Лицензионное соглашение читайте в файле LICENSE.
 Список авторов и соавторов читайте в файле AUTHORS.ru.txt

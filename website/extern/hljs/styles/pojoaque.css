@@ -7,8 +7,9 @@ Based on Solarized Style from http://ethanschoonover.com/solarized
 */
 
 pre code {
-  display: block; padding: 0.5em;
-  color: #DCCF8F;
+  display: block;
+  padding: 0.5em;
+  color: #dccf8f;
   background: url(./pojoaque.jpg) repeat scroll left top #181914;
 }
 
@@ -31,7 +32,7 @@ pre .addition,
 pre .css .tag,
 pre .clojure .title,
 pre .nginx .title {
-  color: #B64926;
+  color: #b64926;
 }
 
 pre .number,
@@ -55,7 +56,7 @@ pre .lisp .title,
 pre .clojure .built_in,
 pre .identifier,
 pre .id {
-  color: #FFB03B;
+  color: #ffb03b;
 }
 
 pre .attribute,
@@ -73,8 +74,9 @@ pre .css .attribute {
   color: #b89859;
 }
 
-pre .css .number,pre .css .hexcolor{
-  color: #DCCF8F;
+pre .css .number,
+pre .css .hexcolor {
+  color: #dccf8f;
 }
 
 pre .css .class {

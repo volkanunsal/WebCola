@@ -4,8 +4,10 @@ Visual Studio-like style based on original C# coloring by Jason Diamond <jason@d
 
 */
 pre code {
-  display: block; padding: 0.5em;
-  background: white; color: black;
+  display: block;
+  padding: 0.5em;
+  background: white;
+  color: black;
 }
 
 pre .comment,
@@ -81,9 +83,19 @@ pre .xmlDocTag {
   color: rgb(128, 128, 128);
 }
 
-pre .vhdl .typename { font-weight: bold; }
-pre .vhdl .string { color: #666666; }
-pre .vhdl .literal { color: rgb(163, 21, 21); }
-pre .vhdl .attribute { color: #00B0E8; }
+pre .vhdl .typename {
+  font-weight: bold;
+}
+pre .vhdl .string {
+  color: #666666;
+}
+pre .vhdl .literal {
+  color: rgb(163, 21, 21);
+}
+pre .vhdl .attribute {
+  color: #00b0e8;
+}
 
-pre .xml .attribute { color: rgb(255, 0, 0); }
+pre .xml .attribute {
+  color: rgb(255, 0, 0);
+}

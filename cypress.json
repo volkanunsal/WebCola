@@ -1,4 +1,4 @@
 {
-    "fileServerFolder": "./website",
-    "chromeWebSecurity": false
+  "fileServerFolder": "./website",
+  "chromeWebSecurity": false
 }

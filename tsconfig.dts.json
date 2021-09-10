@@ -4,6 +4,6 @@
   "compilerOptions": {
     "declaration": true,
     "outDir": "tmp",
-    "noEmit": false,
-  },
+    "noEmit": false
+  }
 }

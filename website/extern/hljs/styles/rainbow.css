@@ -4,18 +4,27 @@ Style with support for rainbow parens
 
 */
 
-pre ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
-pre ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
-
-pre code {
-  display: block; padding: 0.5em;
-  background: #474949; color: #D1D9E1;
+pre ::-moz-selection {
+  background: #ff5e99;
+  color: #fff;
+  text-shadow: none;
+}
+pre ::selection {
+  background: #ff5e99;
+  color: #fff;
+  text-shadow: none;
 }
 
+pre code {
+  display: block;
+  padding: 0.5em;
+  background: #474949;
+  color: #d1d9e1;
+}
 
 pre .body,
 pre .collection {
-   color: #D1D9E1;
+  color: #d1d9e1;
 }
 
 pre .comment,
@@ -37,7 +46,9 @@ pre .css .tag {
   color: #cc99cc;
 }
 
-pre .number { color: #f99157; }
+pre .number {
+  color: #f99157;
+}
 
 pre .command,
 pre .string,
@@ -56,13 +67,11 @@ pre .chunk,
 pre .decorator,
 pre .built_in,
 pre .lisp .title,
-pre .identifier
-{
+pre .identifier {
   color: #b5bd68;
 }
 
-pre .class .keyword
-{
+pre .class .keyword {
   color: #f2777a;
 }
 
@@ -76,7 +85,7 @@ pre .haskell .label,
 pre .id,
 pre .lisp .title,
 pre .clojure .title .built_in {
-   color: #ffcc66;
+  color: #ffcc66;
 }
 
 pre .tag .title,

@@ -8,14 +8,14 @@ pre code {
   display: block;
   padding: 0.5em;
   background: #232323;
-  color: #E6E1DC;
+  color: #e6e1dc;
 }
 
 pre .comment,
 pre .template_comment,
 pre .javadoc,
 pre .shebang {
-  color: #BC9458;
+  color: #bc9458;
   font-style: italic;
 }
 
@@ -26,7 +26,7 @@ pre .status,
 pre .nginx .title,
 pre .method,
 pre .list .title {
-  color: #C26230;
+  color: #c26230;
 }
 
 pre .string,
@@ -40,11 +40,11 @@ pre .apache .cbracket,
 pre .date,
 pre .tex .command,
 pre .markdown .link_label {
-  color: #A5C261;
+  color: #a5c261;
 }
 
 pre .subst {
-  color: #519F50;
+  color: #519f50;
 }
 
 pre .tag,
@@ -54,11 +54,11 @@ pre .doctype,
 pre .sub .identifier,
 pre .pi,
 pre .input_number {
-  color: #E8BF6A;
+  color: #e8bf6a;
 }
 
 pre .identifier {
-  color: #D0D0FF;
+  color: #d0d0ff;
 }
 
 pre .class .title,
@@ -71,9 +71,8 @@ pre .phpdoc {
 }
 
 pre .constant {
-  color: #DA4939;
+  color: #da4939;
 }
-
 
 pre .symbol,
 pre .built_in,
@@ -81,92 +80,89 @@ pre .ruby .symbol .string,
 pre .ruby .symbol .identifier,
 pre .markdown .link_url,
 pre .attribute {
-  color: #6D9CBE;
+  color: #6d9cbe;
 }
 
 pre .markdown .link_url {
   text-decoration: underline;
 }
 
-
-
 pre .params,
 pre .variable,
 pre .clojure .attribute {
-  color: #D0D0FF;
+  color: #d0d0ff;
 }
 
 pre .css .tag,
 pre .rules .property,
 pre .pseudo,
 pre .tex .special {
-  color: #CDA869;
+  color: #cda869;
 }
 
 pre .css .class {
-  color: #9B703F;
+  color: #9b703f;
 }
 
 pre .rules .keyword {
-  color: #C5AF75;
+  color: #c5af75;
 }
 
 pre .rules .value {
-  color: #CF6A4C;
+  color: #cf6a4c;
 }
 
 pre .css .id {
-  color: #8B98AB;
+  color: #8b98ab;
 }
 
 pre .annotation,
 pre .apache .sqbracket,
 pre .nginx .built_in {
-  color: #9B859D;
+  color: #9b859d;
 }
 
 pre .preprocessor,
-pre .preprocessor *
-pre .pragma {
-  color: #8996A8 !important;
+pre .preprocessor * pre .pragma {
+  color: #8996a8 !important;
 }
 
 pre .hexcolor,
 pre .css .value .number {
-  color: #A5C261;
+  color: #a5c261;
 }
 
 pre .title,
 pre .decorator,
 pre .css .function {
-  color: #FFC66D;
+  color: #ffc66d;
 }
 
 pre .diff .header,
 pre .chunk {
-  background-color: #2F33AB;
-  color: #E6E1DC;
+  background-color: #2f33ab;
+  color: #e6e1dc;
   display: inline-block;
   width: 100%;
 }
 
 pre .diff .change {
-  background-color: #4A410D;
-  color: #F8F8F8;
+  background-color: #4a410d;
+  color: #f8f8f8;
   display: inline-block;
   width: 100%;
 }
 
 pre .addition {
   background-color: #144212;
-  color: #E6E1DC;
+  color: #e6e1dc;
   display: inline-block;
   width: 100%;
 }
 
 pre .deletion {
   background-color: #600;
-  color: #E6E1DC;
+  color: #e6e1dc;
   display: inline-block;
   width: 100%;
 }

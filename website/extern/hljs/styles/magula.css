@@ -8,7 +8,8 @@ Music: Aphex Twin / Xtal
 */
 
 pre code {
-  display: block; padding: 0.5em;
+  display: block;
+  padding: 0.5em;
   background-color: #f4f4f4;
 }
 
@@ -120,4 +121,3 @@ pre .apache .tag {
   font-weight: bold;
   color: blue;
 }
-

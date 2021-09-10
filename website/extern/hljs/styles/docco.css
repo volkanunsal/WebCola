@@ -3,9 +3,10 @@ Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine
 */
 
 pre code {
-  display: block; padding: 0.5em;
+  display: block;
+  padding: 0.5em;
   color: #000;
-  background: #f8f8ff
+  background: #f8f8ff;
 }
 
 pre .comment,
@@ -13,7 +14,7 @@ pre .template_comment,
 pre .diff .header,
 pre .javadoc {
   color: #408080;
-  font-style: italic
+  font-style: italic;
 }
 
 pre .keyword,
@@ -29,7 +30,7 @@ pre .subst {
 
 pre .number,
 pre .hexcolor {
-  color: #40a070
+  color: #40a070;
 }
 
 pre .string,
@@ -41,23 +42,23 @@ pre .tex .formula {
 
 pre .title,
 pre .id {
-  color: #19469D;
+  color: #19469d;
 }
 pre .params {
-  color: #00F;
+  color: #00f;
 }
 
 pre .javascript .title,
 pre .lisp .title,
 pre .subst {
-  font-weight: normal
+  font-weight: normal;
 }
 
 pre .class .title,
 pre .haskell .label,
 pre .tex .command {
   color: #458;
-  font-weight: bold
+  font-weight: bold;
 }
 
 pre .tag,
@@ -65,23 +66,23 @@ pre .tag .title,
 pre .rules .property,
 pre .django .tag .keyword {
   color: #000080;
-  font-weight: normal
+  font-weight: normal;
 }
 
 pre .attribute,
 pre .variable,
 pre .instancevar,
 pre .lisp .body {
-  color: #008080
+  color: #008080;
 }
 
 pre .regexp {
-  color: #B68
+  color: #b68;
 }
 
 pre .class {
   color: #458;
-  font-weight: bold
+  font-weight: bold;
 }
 
 pre .symbol,
@@ -91,14 +92,14 @@ pre .ruby .symbol .keymethods,
 pre .lisp .keyword,
 pre .tex .special,
 pre .input_number {
-  color: #990073
+  color: #990073;
 }
 
 pre .builtin,
 pre .constructor,
 pre .built_in,
 pre .lisp .title {
-  color: #0086b3
+  color: #0086b3;
 }
 
 pre .preprocessor,
@@ -108,23 +109,23 @@ pre .doctype,
 pre .shebang,
 pre .cdata {
   color: #999;
-  font-weight: bold
+  font-weight: bold;
 }
 
 pre .deletion {
-  background: #fdd
+  background: #fdd;
 }
 
 pre .addition {
-  background: #dfd
+  background: #dfd;
 }
 
 pre .diff .change {
-  background: #0086b3
+  background: #0086b3;
 }
 
 pre .chunk {
-  color: #aaa
+  color: #aaa;
 }
 
 pre .tex .formula {

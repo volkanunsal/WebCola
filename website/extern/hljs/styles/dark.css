@@ -5,7 +5,8 @@ Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Or
 */
 
 pre code {
-  display: block; padding: 0.5em;
+  display: block;
+  padding: 0.5em;
   background: #444;
 }
 
@@ -23,7 +24,7 @@ pre .tex .special {
 
 pre code,
 pre .subst {
-  color: #DDD;
+  color: #ddd;
 }
 
 pre .string,
@@ -57,7 +58,7 @@ pre .apache .cbracket,
 pre .tex .command,
 pre .prompt,
 pre .coffeescript .attribute {
-  color: #D88;
+  color: #d88;
 }
 
 pre .comment,

@@ -3,16 +3,15 @@ Date: 17.V.2011
 Author: pumbur <pumbur@pumbur.net>
 */
 
-pre code
-{
-  display: block; padding: 0.5em;
+pre code {
+  display: block;
+  padding: 0.5em;
   background: #222;
 }
 
 pre .profile .header *,
 pre .ini .title,
-pre .nginx .title
-{
+pre .nginx .title {
   color: #fff;
 }
 
@@ -29,8 +28,7 @@ pre .doctype,
 pre .tag,
 pre .template_comment,
 pre .css .rules,
-pre .tex .special
-{
+pre .tex .special {
   color: #444;
 }
 
@@ -43,14 +41,12 @@ pre .smalltalk .char,
 pre .xml .value,
 pre .ini .value,
 pre .clojure .attribute,
-pre .coffeescript .attribute
-{
+pre .coffeescript .attribute {
   color: #ffcc33;
 }
 
 pre .number,
-pre .addition
-{
+pre .addition {
   color: #00cc66;
 }
 
@@ -71,9 +67,8 @@ pre .hexcolor,
 pre .important,
 pre .flow,
 pre .inheritance,
-pre .parser3 .variable
-{
-  color: #32AAEE;
+pre .parser3 .variable {
+  color: #32aaee;
 }
 
 pre .keyword,
@@ -88,8 +83,7 @@ pre .clojure .built_in,
 pre .winutils,
 pre .tex .command,
 pre .request,
-pre .status
-{
+pre .status {
   color: #6644aa;
 }
 
@@ -114,8 +108,7 @@ pre .rsl .built_in,
 pre .tail,
 pre .avrasm .label,
 pre .tex .formula,
-pre .tex .formula *
-{
+pre .tex .formula * {
   color: #bb1166;
 }
 
@@ -124,8 +117,7 @@ pre .phpdoc,
 pre .profile .header,
 pre .ini .title,
 pre .apache .tag,
-pre .parser3 .title
-{
+pre .parser3 .title {
   font-weight: bold;
 }
 
@@ -135,8 +127,7 @@ pre .tex .formula,
 pre .xml .javascript,
 pre .xml .vbscript,
 pre .xml .css,
-pre .xml .cdata
-{
+pre .xml .cdata {
   opacity: 0.6;
 }
 
@@ -154,7 +145,6 @@ pre .tail .params,
 pre .container,
 pre .haskell *,
 pre .erlang *,
-pre .erlang_repl *
-{
+pre .erlang_repl * {
   color: #aaa;
 }

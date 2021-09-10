@@ -5,13 +5,14 @@ School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 */
 
 pre code {
-  display: block; padding: 15px 0.5em 0.5em 30px;
+  display: block;
+  padding: 15px 0.5em 0.5em 30px;
   font-size: 11px !important;
-  line-height:16px !important;
+  line-height: 16px !important;
 }
 
-pre{
-  background:#f6f6ae url(./school_book.png);
+pre {
+  background: #f6f6ae url(./school_book.png);
   border-top: solid 2px #d2e8b9;
   border-bottom: solid 1px #d2e8b9;
 }
@@ -25,14 +26,14 @@ pre .lisp .title,
 pre .clojure .built_in,
 pre .nginx .title,
 pre .tex .special {
-  color:#005599;
-  font-weight:bold;
+  color: #005599;
+  font-weight: bold;
 }
 
 pre code,
 pre .subst,
 pre .tag .keyword {
-  color: #3E5915;
+  color: #3e5915;
 }
 
 pre .string,
@@ -65,7 +66,7 @@ pre .apache .cbracket,
 pre .nginx .built_in,
 pre .tex .command,
 pre .coffeescript .attribute {
-  color: #2C009F;
+  color: #2c009f;
 }
 
 pre .comment,
@@ -77,7 +78,7 @@ pre .doctype,
 pre .deletion,
 pre .shebang,
 pre .apache .sqbracket {
-  color: #E60415;
+  color: #e60415;
 }
 
 pre .keyword,

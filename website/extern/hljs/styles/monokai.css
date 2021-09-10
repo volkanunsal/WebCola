@@ -3,7 +3,8 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 */
 
 pre code {
-  display: block; padding: 0.5em;
+  display: block;
+  padding: 0.5em;
   background: #272822;
 }
 
@@ -19,22 +20,22 @@ pre .lisp .title,
 pre .clojure .built_in,
 pre .nginx .title,
 pre .tex .special {
-  color: #F92672;
+  color: #f92672;
 }
 
 pre code {
-  color: #DDD;
+  color: #ddd;
 }
 
 pre code .constant,
 pre .asciidoc .code {
-	color: #66D9EF;
+  color: #66d9ef;
 }
 
 pre .code,
 pre .class .title,
 pre .header {
-	color: white;
+  color: white;
 }
 
 pre .link_label,
@@ -43,7 +44,7 @@ pre .symbol,
 pre .symbol .string,
 pre .value,
 pre .regexp {
-	color: #BF79DB;
+  color: #bf79db;
 }
 
 pre .link_url,
@@ -75,7 +76,7 @@ pre .apache .tag,
 pre .apache .cbracket,
 pre .tex .command,
 pre .prompt {
-  color: #A6E22E;
+  color: #a6e22e;
 }
 
 pre .comment,
@@ -91,7 +92,7 @@ pre .deletion,
 pre .shebang,
 pre .apache .sqbracket,
 pre .tex .formula {
-  color: #75715E;
+  color: #75715e;
 }
 
 pre .keyword,

@@ -5,8 +5,10 @@ Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
 */
 
 pre code {
-  display: block; padding: 0.5em;
-  background: white; color: black;
+  display: block;
+  padding: 0.5em;
+  background: white;
+  color: black;
 }
 
 pre .comment,
@@ -93,8 +95,9 @@ pre .subst {
   color: #000;
 }
 
-pre .css .class, pre .css .id {
-  color: #9B703F;
+pre .css .class,
+pre .css .id {
+  color: #9b703f;
 }
 
 pre .value .important {
@@ -103,13 +106,13 @@ pre .value .important {
 }
 
 pre .rules .keyword {
-  color: #C5AF75;
+  color: #c5af75;
 }
 
 pre .annotation,
 pre .apache .sqbracket,
 pre .nginx .built_in {
-  color: #9B859D;
+  color: #9b859d;
 }
 
 pre .preprocessor,
@@ -119,7 +122,7 @@ pre .pragma {
 }
 
 pre .tex .formula {
-  background-color: #EEE;
+  background-color: #eee;
   font-style: italic;
 }
 
@@ -130,15 +133,15 @@ pre .chunk {
 }
 
 pre .diff .change {
-  background-color: #BCCFF9;
+  background-color: #bccff9;
 }
 
 pre .addition {
-  background-color: #BAEEBA;
+  background-color: #baeeba;
 }
 
 pre .deletion {
-  background-color: #FFC8BD;
+  background-color: #ffc8bd;
 }
 
 pre .comment .yardoctag {
